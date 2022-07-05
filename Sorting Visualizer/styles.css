@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bar-container {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+
+.bar {
+  width: 20px;
+  background-color: aqua;
+  border-radius: 2px;
+  border: 1px solid white;
+  transition: height 0.5s ease-in-out;
+}
